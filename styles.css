@@ -1,0 +1,125 @@
+body {
+
+    font-family: 'Karla', sans-serif;
+    /* primary */
+
+    --cyan: hsl(179, 62%, 43%);
+    --price-cyan: hsl(184, 54%, 65%);
+    --light-cyan: hsl(179, 47%, 52%);
+    --celest: hsl(180, 100%, 84%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    /* ### Neutral */
+
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+
+    background: var(--grayish-blue);
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.custom-padding {
+    padding: 1.42rem 1rem;
+}
+
+.container {
+    margin-inline: auto;
+    max-width: 82%;
+}
+
+.join {
+    background: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.join h1 {
+    font-size: 16px;
+    color: var(--cyan);
+    margin-bottom: 1rem;
+}
+
+.join .subtitle {
+    font-size: 14px;
+    color: var(--bright-yellow);
+    margin-bottom: .7rem;
+}
+
+.join .desc {
+    font-size: 12px;
+    color: var(--grayish-blue);
+    line-height: 18px;
+}
+
+.subscription {
+    background-color: var(--cyan);
+    color: var(--light-gray);
+}
+
+.subscription h2 {
+    font-size: 16px;
+    margin-bottom: .9rem;
+}
+
+p.price {
+    font-size: 24px;
+    margin-bottom: .5rem;
+}
+
+p.price span {
+    font-size: 12px;
+    color: var(--price-cyan);
+}
+
+.full-access {
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.subscription button {
+    width: 100%;
+    padding: .8rem;
+    background-color: var(--bright-yellow);
+    border: none;
+    border-radius: 5px;
+    color: var(--light-gray);
+    font-weight: 700;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.why-us {
+    background-color: var(--light-cyan);
+    color: var(--light-gray);
+}
+
+.why-us h3 {
+    font-size: 16px;
+}
+
+.why-us ul {
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.why-us li {
+    list-style: none;
+    color: var(--celest);
+    font-size: 14px;
+    
+}
