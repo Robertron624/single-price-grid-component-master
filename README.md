@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-
+![image](https://user-images.githubusercontent.com/72587880/228109545-1299ab71-691c-414c-adaa-8154c79dbaae.png)
 
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Robertron624/single-price-grid-component-master)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://precious-naiad-a93e99.netlify.app/)
 
 ## My process
 
