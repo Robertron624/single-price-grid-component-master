@@ -100,6 +100,11 @@ p.price span {
     font-weight: 700;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.subscription button:hover {
+    background-color: var(--price-cyan);
 }
 
 .why-us {
