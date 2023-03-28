@@ -23,7 +23,7 @@ h1, h2, h3, p {
 }
 
 main {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -76,7 +76,7 @@ main {
 }
 
 p.price {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: .5rem;
 }
 
