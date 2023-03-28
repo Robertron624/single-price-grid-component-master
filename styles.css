@@ -99,6 +99,7 @@ p.price span {
     color: var(--light-gray);
     font-weight: 700;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .why-us {
@@ -122,4 +123,32 @@ p.price span {
     color: var(--celest);
     font-size: 14px;
     
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .sub-why {
+        display: flex;
+    }
+
+    .subscription {
+        width: 50%;
+        border-bottom-left-radius: 5px;
+    }
+
+    .why-us {
+        width: 50%;
+        border-bottom-right-radius: 5px;
+    }
+
+    .why-us h3 {
+        margin-bottom: .51rem;
+    }
+
+    .why-us ul {
+        margin: 0;
+    }
 }
